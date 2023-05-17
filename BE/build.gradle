@@ -20,6 +20,8 @@ dependencies {
     implementation 'org.springdoc:springdoc-openapi-ui:1.6.4'
     implementation 'org.springdoc:springdoc-openapi-data-rest:1.6.4'
     implementation 'com.h2database:h2:2.1.214'
+    implementation 'software.amazon.awssdk:s3:2.16.67'
+
 }
 
 tasks.named('test') {
