@@ -3,7 +3,7 @@ name: Deploy to EC2 with CodeDeploy
 on:
   push:
     branches:
-      - main
+      - BE-feature/#10-issue-list
 
 jobs:
   deploy:
